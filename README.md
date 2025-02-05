@@ -36,7 +36,7 @@ The **Food Redistribution Platform** is a blockchain-backed system designed to e
 - View Leaderboard
 
 ## Technologies Used
-- **Python 3.7** (Core programming language)
+- **Python** (Core programming language)
 - **Blockchain** (For secure donation storage)
 - **JSON** (For data storage)
 - **hashlib**, **json**, **os**, and **sys** (built-in Python libraries) 
@@ -44,7 +44,7 @@ The **Food Redistribution Platform** is a blockchain-backed system designed to e
 
 ## Installation
 ### Prerequisites
-Ensure you have Python installed.
+Ensure you have Python 3.7 installed.
 
 ### Steps
 1. Clone this repository:
