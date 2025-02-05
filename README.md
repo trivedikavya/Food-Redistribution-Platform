@@ -1,36 +1,38 @@
-# Food Redistribution Platform
 
-## Overview
-The **Food Redistribution Platform** is a blockchain-backed system designed to efficiently manage food donations, distribution, and volunteer coordination. It ensures security, transparency, and incentivizes participation through a reward system.
+Follow the on-screen prompts to navigate through the system. You can create accounts for different roles (Donor, NGO, Volunteer, Admin) to explore all features.
 
-## Features
-### General Features
-- User roles: **Donor, NGO, Volunteer, Admin**
-- Blockchain-based **donation storage** for security
-- **Crisis Mode** for emergency prioritization
-- **Leaderboard & Reward System** to encourage participation
+## File Structure
 
-### Donor Features
-- Add food donations
-- View available donations
-- Earn reward points for contributions
+- `food_redistribution.py`: Main application script
+- `food_redistribution_data.json`: JSON file for data storage (created automatically)
 
-### NGO Features
-- View and claim donations
-- Assign tasks for volunteers
-- Receive notifications
+## Contributing
 
-### Volunteer Features
-- View available delivery tasks
-- Accept and complete tasks
-- Earn points for completing tasks
+We welcome contributions to improve the Food Redistribution Platform! Here are some ways you can contribute:
 
-### Admin Features
-- Manage users and donations
-- Activate/Deactivate Crisis Mode
-- Send notifications to users
-- View Leaderboard
+1. Report bugs and suggest features by opening issues
+2. Submit pull requests with bug fixes or new features
+3. Improve documentation
+4. Share ideas for enhancing the platform
 
+Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+
+## Future Enhancements
+
+- Web or mobile app interface
+- Real-time notifications
+- Integration with mapping services for efficient routing
+- Partnerships with local businesses and organizations
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or suggestions, please open an issue on this repository or contact the maintainers directly.
+
+Thank you for your interest in fighting food waste and hunger with technology!
 ## Installation
 ### Prerequisites
 Ensure you have Python installed.
@@ -59,21 +61,7 @@ food-redistribution/
 │-- requirements.txt                 # Dependencies
 ```
 
-## Technologies Used
-- **Python** (Core programming language)
-- **Blockchain** (For secure donation storage)
-- **JSON** (For data storage)
 
-## Contributions
-Feel free to contribute by submitting a pull request. Follow these steps:
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to your fork
-5. Open a pull request
-
-## License
-This project is licensed under the MIT License.
 
 ## Contact
 For any queries, reach out to `your.email@example.com`. 🚀
