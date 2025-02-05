@@ -35,6 +35,14 @@ The **Food Redistribution Platform** is a blockchain-backed system designed to e
 - Send notifications to users
 - View Leaderboard
 
+## Technologies Used
+- **Python** (Core programming language)
+- **Blockchain** (For secure donation storage)
+- **JSON** (For data storage)
+- **hashlib**, **json**, **os**, and **sys** (built-in Python libraries) 
+-  the only external dependency is **tabulate**
+
+
 ## Contributing
 
 We welcome contributions to improve the Food Redistribution Platform! Here are some ways you can contribute:
