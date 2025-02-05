@@ -1,4 +1,11 @@
+# Food Redistribution Platform
 
+[![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+## Overview
+...
 Follow the on-screen prompts to navigate through the system. You can create accounts for different roles (Donor, NGO, Volunteer, Admin) to explore all features.
 
 ## File Structure
