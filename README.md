@@ -5,13 +5,35 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 ## Overview
-...
-Follow the on-screen prompts to navigate through the system. You can create accounts for different roles (Donor, NGO, Volunteer, Admin) to explore all features.
+The **Food Redistribution Platform** is a blockchain-backed system designed to efficiently manage food donations, distribution, and volunteer coordination. It ensures security, transparency, and incentivizes participation through a reward system.
 
-## File Structure
+## Features
+### General Features
+- User roles: **Donor, NGO, Volunteer, Admin**
+- Blockchain-based **donation storage** for security
+- **Crisis Mode** for emergency prioritization
+- **Leaderboard & Reward System** to encourage participation
 
-- `food_redistribution.py`: Main application script
-- `food_redistribution_data.json`: JSON file for data storage (created automatically)
+### Donor Features
+- Add food donations
+- View available donations
+- Earn reward points for contributions
+
+### NGO Features
+- View and claim donations
+- Assign tasks for volunteers
+- Receive notifications
+
+### Volunteer Features
+- View available delivery tasks
+- Accept and complete tasks
+- Earn points for completing tasks
+
+### Admin Features
+- Manage users and donations
+- Activate/Deactivate Crisis Mode
+- Send notifications to users
+- View Leaderboard
 
 ## Contributing
 
