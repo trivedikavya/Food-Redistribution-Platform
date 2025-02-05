@@ -36,11 +36,38 @@ The **Food Redistribution Platform** is a blockchain-backed system designed to e
 - View Leaderboard
 
 ## Technologies Used
-- **Python** (Core programming language)
+- **Python 3.7** (Core programming language)
 - **Blockchain** (For secure donation storage)
 - **JSON** (For data storage)
 - **hashlib**, **json**, **os**, and **sys** (built-in Python libraries) 
 -  the only external dependency is **tabulate**
+
+## Installation
+### Prerequisites
+Ensure you have Python installed.
+
+### Steps
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/yourusername/food-redistribution.git
+   cd food-redistribution
+   ```
+2. Install required dependencies:
+   ```sh
+   pip install tabulate
+   ```
+3. Run the application:
+   ```sh
+   python food_redistribution.py
+   ```
+
+## File Structure
+```
+│-- main.py                         # Main entry point of the application
+│-- food_redistribution_data.json    # Stores application data (created automatically)
+│-- README.md                        # Project documentation
+
+```
 
 
 ## Contributing
@@ -66,39 +93,4 @@ Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-
-For any questions or suggestions, please open an issue on this repository or contact the maintainers directly.
-
-Thank you for your interest in fighting food waste and hunger with technology!
-## Installation
-### Prerequisites
-Ensure you have Python installed.
-
-### Steps
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/yourusername/food-redistribution.git
-   cd food-redistribution
-   ```
-2. Install required dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-3. Run the application:
-   ```sh
-   python main.py
-   ```
-
-## File Structure
-```
-food-redistribution/
-│-- food_redistribution_data.json  # Stores application data
-│-- main.py                         # Main entry point of the application
-│-- README.md                        # Project documentation
-│-- requirements.txt                 # Dependencies
-```
-
-
-
-## Contact
-For any queries, reach out to `your.email@example.com`. 🚀
+For any queries, reach out to `kavyatrivedi931@gmail.com`. 🚀
