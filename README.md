@@ -87,6 +87,7 @@ Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 - Real-time notifications
 - Integration with mapping services for efficient routing
 - Partnerships with local businesses and organizations
+- Through that rewards you can get benefits in Tax(if Gov collab) or can buy something through that rewards.
 
 ## License
 
