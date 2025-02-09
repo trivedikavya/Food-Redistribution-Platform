@@ -44,7 +44,7 @@ The **Food Redistribution Platform** is a blockchain-backed system designed to e
 
 ## Installation
 ### Prerequisites
-Ensure you have Python 3.7 installed.
+Ensure you have Python 3.7 installed. and certain this which are in technologies ( note which is in ppt)
 
 ### Steps
 1. Clone this repository:
