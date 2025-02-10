@@ -5,65 +5,62 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 ## Overview
-The **Food Redistribution Platform** is a blockchain-backed system designed to efficiently manage food donations, distribution, and volunteer coordination. It ensures security, transparency, and incentivizes participation through a reward system.
+The Food Redistribution Platform is an innovative console-based application designed to address food waste and hunger issues. It connects donors, NGOs, and volunteers in a streamlined process to facilitate the efficient redistribution of surplus food to those in need. The platform incorporates blockchain technology for data integrity and AI-powered matching to optimize food distribution.
 
 ## Features
-### General Features
-- User roles: **Donor, NGO, Volunteer, Admin**
-- Blockchain-based **donation storage** for security
-- **Crisis Mode** for emergency prioritization
-- **Leaderboard & Reward System** to encourage participation
 
-### Donor Features
-- Add food donations
-- View available donations
-- Earn reward points for contributions
+### Basic Features
 
-### NGO Features
-- View and claim donations
-- Assign tasks for volunteers
-- Receive notifications
+1. User Management
+   - Multi-role user system (Donor, NGO, Volunteer, Admin)
+   - Secure registration with input validation
+   - Login system with hashed password storage
 
-### Volunteer Features
-- View available delivery tasks
-- Accept and complete tasks
-- Earn points for completing tasks
+2. Donation Management
+   - Add and track food donations
+   - View available donations
+   - Claim donations (for NGOs)
 
-### Admin Features
-- Manage users and donations
-- Activate/Deactivate Crisis Mode
-- Send notifications to users
-- View Leaderboard
+3. Task Management
+   - Create delivery tasks for claimed donations
+   - View and accept tasks (for Volunteers)
+   - Track task completion
+
+4. Reward System
+   - Point-based system for user actions
+   - Leaderboard to display user rankings
+
+5. Notifications
+   - Crisis mode alerts
+   - Admin-sent notifications
+
+### Advanced Features
+
+1. Blockchain Integration
+   - Basic blockchain implementation for donation tracking
+   - Ensures data integrity and transparency
+
+2. AI-powered Food Matching
+   - Uses TF-IDF and cosine similarity algorithms
+   - Matches donations with NGO needs for optimal distribution
+
+3. Crisis Mode
+   - Toggleable mode for prioritizing urgent donations
+   - Affects notification system and task prioritization
 
 ## Technologies Used
-- **Python** (Core programming language)
-- **Blockchain** (For secure donation storage)
-- **JSON** (For data storage)
-- **hashlib**, **json**, **os**, and **sys** (built-in Python libraries) 
--  the only external dependency is **tabulate**
 
-## Installation
-### Prerequisites
-Ensure you have Python 3.7 installed. and certain this which are in technologies ( note which is in ppt)
+1. Python 3.7+
+2. JSON (for data storage)
+3. hashlib (for password hashing)
+4. scikit-learn (for TF-IDF vectorization and cosine similarity)
+5. numpy (for numerical operations)
+6. re (for input validation using regular expressions)
 
-### Steps
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/yourusername/food-redistribution.git
-   cd food-redistribution
-   ```
-2. Install required dependencies:
-   ```sh
-   pip install tabulate
-   ```
-3. Run the application:
-   ```sh
-   python food_redistribution.py
-   ```
 
 ## File Structure
 ```
-│-- main.py                         # Main entry point of the application
+│-- main.py                         # Main entry point of the application (Just run this all things will work easy)
 │-- food_redistribution_data.json    # Stores application data (created automatically)
 │-- README.md                        # Project documentation
 
