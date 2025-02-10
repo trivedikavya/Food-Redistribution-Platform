@@ -65,7 +65,7 @@ The Food Redistribution Platform is an innovative **console-based application** 
 │-- README.md                        # Project documentation
 
 ```
-
+-- Replit is a online compiler which is next level for python 
 
 ## Contributing
 
