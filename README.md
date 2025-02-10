@@ -5,7 +5,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 ## Overview
-The Food Redistribution Platform is an innovative console-based application designed to address food waste and hunger issues. It connects donors, NGOs, and volunteers in a streamlined process to facilitate the efficient redistribution of surplus food to those in need. The platform incorporates blockchain technology for data integrity and AI-powered matching to optimize food distribution.
+The Food Redistribution Platform is an innovative **console-based application** designed to address food waste and hunger issues. It connects donors, NGOs, and volunteers in a streamlined process to facilitate the efficient redistribution of surplus food to those in need. The platform incorporates blockchain technology for data integrity and AI-powered matching to optimize food distribution.
 
 ## Features
 
@@ -60,8 +60,8 @@ The Food Redistribution Platform is an innovative console-based application desi
 
 ## File Structure
 ```
-│-- main.py                         # Main entry point of the application (Just run this all things will work easy)
-│-- food_redistribution_data.json    # Stores application data (created automatically)
+│-- main.py                         # Main entry point  (Just run this all things will work easy [Use replit])
+│-- food_redistribution_data.json    # Stores application data (will create Automatically)
 │-- README.md                        # Project documentation
 
 ```
