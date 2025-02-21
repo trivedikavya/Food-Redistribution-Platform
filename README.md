@@ -67,7 +67,7 @@ The Food Redistribution Platform is an innovative **console-based application** 
 ```
 -- Replit is a online compiler which is next level for python 
 
-## Outputs
+## Outputs & Working
 
 ### Application Startup 
 
@@ -77,6 +77,25 @@ Welcome to the Food Redistribution Platform
 2. Create Account
 3. Exit
 Enter your choice: 
+```
+### User Registration & Login 
+```python
+Enter your name: leo
+Enter your email: leooo@example.com
+Set your password (min 8 characters, include numbers or symbols): Pass@123
+Select Your Role:
+1. Donor
+2. NGO
+3. Volunteer
+4. Admin
+Enter your choice: 1
+Account created successfully!
+
+FOR Login 
+
+Enter your email: leooo@example.com
+Enter your password: Pass@123
+Welcome back, leo !
 ```
 
 
