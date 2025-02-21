@@ -241,12 +241,13 @@ Welcome back, AdminUser!
 
 Admin Dashboard
 
-View All Users
-View All Donations
-Activate/Deactivate Crisis Mode
-View Leaderboard
-Manage Notifications
-Logout
+1. View All Users
+2. View All Donations
+3. Activate/Deactivate Crisis Mode
+4. View Leaderboard
+5. Manage Notifications
+6. AI Food Matching
+7. Logout
 Enter your choice: 1
 
 All Registered Users:
@@ -257,12 +258,14 @@ Alex Smith (Volunteer)
 
 Admin Dashboard
 
-View All Users
-View All Donations
-Activate/Deactivate Crisis Mode
-View Leaderboard
-Manage Notifications
-Logout
+1. View All Users
+2. View All Donations
+3. Activate/Deactivate Crisis Mode
+4. View Leaderboard
+5. Manage Notifications
+6. AI Food Matching
+7. Logout
+
 Enter your choice: 2
 
 All Donations:
@@ -272,12 +275,14 @@ Rice - 25 kg (Donor: Jane Donor | Pending)
 
 Admin Dashboard
 
-View All Users
-View All Donations
-Activate/Deactivate Crisis Mode
-View Leaderboard
-Manage Notifications
-Logout
+1. View All Users
+2. View All Donations
+3. Activate/Deactivate Crisis Mode
+4. View Leaderboard
+5. Manage Notifications
+6. AI Food Matching
+7. Logout
+
 Enter your choice: 3
 
 Crisis Mode Status: OFF
@@ -288,12 +293,14 @@ Crisis Mode Activated! Notifications sent to all users.
 
 Admin Dashboard
 
-View All Users
-View All Donations
-Activate/Deactivate Crisis Mode
-View Leaderboard
-Manage Notifications
-Logout
+1. View All Users
+2. View All Donations
+3. Activate/Deactivate Crisis Mode
+4. View Leaderboard
+5. Manage Notifications
+6. AI Food Matching
+7. Logout
+
 Enter your choice: 5
 
 Send Notification to All Users:
@@ -303,13 +310,27 @@ Notification sent successfully!
 
 Admin Dashboard
 
-View All Users
-View All Donations
-Activate/Deactivate Crisis Mode
-View Leaderboard
-Manage Notifications
-Logout
-Enter your choice: 0
+1. View All Users
+2. View All Donations
+3. Activate/Deactivate Crisis Mode
+4. View Leaderboard
+5. Manage Notifications
+6. AI Food Matching
+7. Logout
+Enter your choice: 6
+
+Suggested match: Rice 5kg -> NGO_X needs food
+
+Admin Dashboard
+
+1. View All Users
+2. View All Donations
+3. Activate/Deactivate Crisis Mode
+4. View Leaderboard
+5. Manage Notifications
+6. AI Food Matching
+7. Logout
+Enter your choice: 7
 
 Logging out... 
 ```
